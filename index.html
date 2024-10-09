@@ -10,22 +10,28 @@
 <body>
     <main class="principal">
         <h1 class="principal-titulo">Login</h1>
-        <p class="principal-texto">Seja bem-vindo(a) novamente. Faça o login para acessar sua conta e poder fazer as configurações no seu ambiente.</p>
-        <form>
-            <section>
-                <p>
-                    <label for="iemail">
-                        <input type="email" name="email" id="iemail" placeholder="Seu email">
-                    </label>
-                </p>
-                <p>
-                    <label for="isenha">
-                        <input type="password" name="senha" id="isenha" placeholde="Sua senha">
-                    </label>
-                </p>
+        <p class="principal-texto">Seja bem-vindo(a) novamente. Faça login para acessar sua conta.</p>
+        <form class="principal-formulario">
+            <section class="principal-formulario-secao">
                 <div>
-                    <a href="#">Entrar</a>
-                    <a href="#">Esqueci a senha</a>
+                    <p>
+                        <label for="email">
+                            <input class="insert" type="email" name="email" id="email" placeholder="Seu email">
+                        </label>
+                    </p>
+                    <p>
+                        <label for="senha">
+                            <input type="password" name="senha" id="senha" placeholder="Sua senha">
+                        </label>
+                    </p>
+                </div>
+                <div>
+                    <p>
+                        <a href="#">Entrar</a>
+                    </p>
+                    <p>
+                        <a href="#">Esqueci a senha</a>
+                    </p>
                 </div>
             </section>
         </form>
