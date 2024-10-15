@@ -43,4 +43,10 @@ Typical device breakpoints:
         float: left;
         width: 50%;
     }
+    #formulario > h1 {
+        font-size: 2em;
+    }
+    #formulario > p {
+        font-size: 1.2em;
+    }
 }
