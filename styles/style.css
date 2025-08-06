@@ -25,7 +25,63 @@ main {
 }
 
 .login {
+    display: block;
     width: 250px;
     height: 500px;
-    background-color: white;    
+    background-color: white; 
+    border-radius: 2em; 
+    overflow: hidden; 
 }
+
+.dados {
+    margin: 10px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.dados h1 {
+    font-weight: bold;
+    font-size: 1em;
+    align-self: center;
+    margin-bottom: 10px;
+}
+
+input[type=email] {
+    margin-bottom: 10px;
+    
+}
+
+input[type=password] {
+    margin-bottom: 10px;
+}
+
+input[type=button] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid purple;
+    border-radius: 5px;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+input[type=button]:hover {
+    background-color: rgba(128, 0, 128, 0.5);
+}
+
+.dados a {
+    display: block;
+    text-decoration: none;
+    color: black;
+}
+
+.dados a:hover {
+    text-decoration: underline;
+}
+
+.btn {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
