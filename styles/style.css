@@ -9,8 +9,61 @@ body {
     background-color: purple;
 }
 
+main {
+    display: flex;
+    flex-flow: row nowrap; 
+    justify-content: center;
+    align-items: center;   
+}
+
 .formulario {
-    width: 500px;
-    height: 500px;
+    width: 250px;
+    height: 400px;
+
     background-color: white;
+    border-radius: 2em;
+    display: block;
+    padding: 10px;  
+}
+
+.formulario h1 {
+    text-align: center;
+    margin: 10px 0;
+    font-size: 2em;
+}
+
+input[type=email], input[type=password] {
+    margin: 10px 0;
+}
+
+input[type=button] {
+    display: block;
+    width: 100%;
+    border: 1px solid purple;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+input[type=button]:hover {
+    background-color: rgba(128, 0, 128, 0.452);
+}
+
+.link-externo {
+    display: block;
+    text-align: center;
+    
+    text-decoration: none;
+    color: white;
+    background-color: rgba(128, 0, 128, 0.452);
+}
+
+.link-externo:hover {
+    background-color: rgba(128, 0, 128, 0.781)
+}
+
+.btn {
+   margin: 10px 0;
+   padding: 10px;
+   border-radius: 8px;
+   text-transform: uppercase;
 }
