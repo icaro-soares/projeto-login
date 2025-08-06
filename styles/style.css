@@ -9,13 +9,6 @@ body {
     background-color: purple;
 }
 
-main {
-    display: flex;
-    flex-flow: row nowrap; 
-    justify-content: center;
-    align-items: center;   
-}
-
 .formulario {
     width: 250px;
     height: 400px;
@@ -23,7 +16,7 @@ main {
     background-color: white;
     border-radius: 2em;
     display: block;
-    padding: 10px;  
+    padding: 10px;
 }
 
 .formulario h1 {
