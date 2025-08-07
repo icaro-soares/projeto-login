@@ -17,13 +17,6 @@ main {
    width: 100vw;
 }
 
-.imagem {
-    display: block;
-    background: url(../imagens/metal.jpg) no-repeat center;
-    background-size: cover;
-    height: 200px;
-}
-
 .login {
     display: block;
     width: 250px;
@@ -31,6 +24,13 @@ main {
     background-color: white; 
     border-radius: 2em; 
     overflow: hidden; 
+}
+
+.imagem {
+    display: block;
+    background: url(../imagens/metal.jpg) no-repeat center;
+    background-size: cover;
+    height: 200px;
 }
 
 .dados {
