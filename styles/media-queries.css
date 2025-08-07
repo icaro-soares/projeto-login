@@ -1,0 +1,26 @@
+@media screen and (min-width: 768px) {
+    .login {
+        width: 450px;
+        height: 200px;
+    }
+    .dados {
+        width: 70%;
+    }
+    .imagem {
+        width: 30%;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .login{
+        width: 600px;
+        height: 400px;
+    }
+    .dados {
+        width: 50%;
+    }
+    .imagem {
+        width: 50%;
+        height: 100%;
+    }
+}
