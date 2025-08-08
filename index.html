@@ -5,8 +5,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projeto Login</title>
     <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
-    
+    <main>
+        <section class="login">
+            <div class="imagem">
+                <!-- Aqui vai a imagem -->
+            </div>
+            <div class="dados">
+                <h1>Faça seu login</h1>
+                <form action="#" method="post" class="formulario">
+                    <div>
+                        <label for="iemail">Email:</label>
+                        <input type="email" name="email" id="iemail" placeholder="Email" required>
+                    </div>
+                    <div>
+                        <label for="isenha">Senha:</label>
+                        <input type="password" name="senha" id="isenha" placeholder="Senha" required minlenght="8">
+                    </div>
+                    <div>
+                        <input type="button" value="Entrar" class="btn">
+                        <a href="#">Esqueci a senha</a>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
 </body>
 </html>
