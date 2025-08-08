@@ -4,9 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projeto Login</title>
-    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="styles/style.css">
-    <link rel="stylesheet" href="styles/media-queries.css">
 </head>
 <body>
     <main>
@@ -16,14 +13,14 @@
             </div>
             <div class="dados">
                 <h1>Faça seu login</h1>
-                <form action="#" method="post" class="formulario" autocomplete="on">
-                    <div>
+                <form action="#" method="post" class="formulario">
+                    <div class="campo">
                         <label for="iemail">Email:</label>
-                        <input type="email" name="email" id="iemail" placeholder="Email" autocomplete="email" required>
+                        <input type="email" name="email" id="iemail" placeholder="Email" autocomplete="email" required size="22">
                     </div>
-                    <div>
+                    <div class="campo">
                         <label for="isenha">Senha:</label>
-                        <input type="password" name="senha" id="isenha" placeholder="Senha" autocomplete="off" required minlenght="8">
+                        <input type="password" name="senha" id="isenha" placeholder="Senha" autocomplete="off" required minlenght="8" size="21">
                     </div>
                     <div class="botoes">
                         <input type="button" value="Entrar" class="btn">
