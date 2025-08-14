@@ -74,6 +74,11 @@ body {
     font-size: 1.7em;
 }
 
+.mail {
+    font-size: .8em;
+    padding-left: .5em;
+}
+
 .botao input[type=submit] {
     width: 100%;
     border: none;
