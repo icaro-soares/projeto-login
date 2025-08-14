@@ -61,6 +61,7 @@ body {
 }
 
 .campo input {
+    width: 85%;
     margin-bottom: .5em;
 }
 
@@ -70,7 +71,7 @@ body {
 
 .icon {
     color: white;
-    font-size: 1+9em;
+    font-size: 1.9em;
 }
 
 .botao input[type=submit] {
