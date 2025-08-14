@@ -4,10 +4,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projeto Social</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
-    
+    <main class="container">
+        <section class="login">
+            <div class="imagem">
+                <!-- Aqui vai a imagem -->
+            </div>
+            <div class="dados">
+                <h1>Faça seu login</h1>
+                <form action="#" method="post" class="formulario">
+                    <div class="campo">
+                        <span class="material-symbols-outlined icon">person</span>
+                        <label for="iemail">Email:</label>
+                        <input type="email" name="email" id="iemail" required>
+                    </div>
+                    <div class="campo">
+                        <span class="material-symbols-outlined icon">vpn_key</span>
+                        <label for="isenha">Senha:</label>
+                        <input type="password" name="senha" id="isenha" minlength="8" required>
+                    </div>
+                    <div class="botao">
+                        <input type="submit" value="Entrar" onclick="clicou()">
+                        <a href="#" class="btn">Esqueci a senha</a>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <script>
+        function clicou() {
+            alert('Login realizado com sucesso!')
+        }
+    </script>
 </body>
 </html>
