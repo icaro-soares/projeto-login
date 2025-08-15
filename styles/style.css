@@ -19,6 +19,7 @@ body {
     width: 100vw;
 
     display: flex;
+    flex-flow: row nowrap;
     justify-content: center; /* Alinha horizontalmente */
     align-items: center; /* Alinha verticalmente */
 }
@@ -54,14 +55,14 @@ body {
 .campo {
     font-size: .7em;
     margin: 10px 0;
-
+    
     background-color: var(--roxo);
     border-radius: 10px;
     padding: 4px;
 }
 
 .campo input {
-    width: 85%;
+    width: 100%;
     margin-bottom: .5em;
 }
 
