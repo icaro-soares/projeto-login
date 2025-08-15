@@ -3,17 +3,17 @@
         background-image: linear-gradient(to bottom, var(--roxo), var(--verde));
     }
     .login {
+        flex-direction: row;
         width: 80vw;
         height: 280px;
     }
     .imagem {
-        float: left;
-        width: 30%;
+        flex: 30%;
         height: 100%;
     }
     .dados {
-        float: right;
-        width: 70%;
+        flex: 70%;
+        /* height: 100%; */
     }
 }
 
@@ -21,14 +21,18 @@
     body {
         background-image: linear-gradient(to top, var(--roxo), var(--verde));
     }
+    .login {
+        flex-direction: row-reverse;
+        width: 50vw;
+        height: 300px;
+    }
     .imagem {
-        float: right;
-        width: 50%;
+        flex: 50%;
         height: 100%;
     }
     .dados {
-        float: left;
-        width: 50%;
+        flex: 50%;
+        /* height: 100%; */
     }
     .dados h1 {
         font-size: 2em;
