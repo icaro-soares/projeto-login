@@ -1,0 +1,36 @@
+@media screen and (min-width: 768px) {
+    body {
+        background-image: linear-gradient(to bottom, var(--roxo), var(--verde));
+    }
+    .login {
+        width: 80vw;
+        height: 280px;
+    }
+    .imagem {
+        float: left;
+        width: 30%;
+        height: 100%;
+    }
+    .dados {
+        float: right;
+        width: 70%;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    body {
+        background-image: linear-gradient(to top, var(--roxo), var(--verde));
+    }
+    .imagem {
+        float: right;
+        width: 50%;
+        height: 100%;
+    }
+    .dados {
+        float: left;
+        width: 50%;
+    }
+    .dados h1 {
+        font-size: 2em;
+    }
+}
